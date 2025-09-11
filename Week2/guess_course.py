@@ -2,10 +2,10 @@
 
 """
 Program name: guess_course.py
-Program purpose: 
+Program purpose: guess the course code with a while loop
 Author: Kyle Vachon
 Date and Version: 09/11/2025 v1.0
-Completion time: 
+Completion time: 20 minutes
 """
 
 #variables
