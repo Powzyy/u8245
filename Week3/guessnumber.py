@@ -13,7 +13,6 @@ import random
 secret = random.randint(1, 9)
 guessed_number = int(input("Welcome to the number guessing game!\nGuess a number from 1 - 9. (0 to quit)"))
 
-print("The secret number is:", secret)
 # Main loop for the guessing game
 while guessed_number != secret and guessed_number != 0:
     if guessed_number < 0 or guessed_number > 9:
