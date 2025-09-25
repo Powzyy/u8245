@@ -28,12 +28,11 @@ def cube(number):
 
 #main
 proceed = input("This program squares and cubes numbers.\nWould you like to proceed? (y to proceed, q to quit): ")
-while proceed.lower() == "y":
+while proceed.lower() == "y" and proceed.lower() != "q":
     chosen_number = get_integer()
     if chosen_number == "q":
-        print("Quitting program. Goodbye!")
-        break
-    if chosen_number == 0:
+        proceed = "q"
+    elif chosen_number == 0:
         print("The square of", 0, "is", 0, "and the cube is", 0)
     elif chosen_number == 1:
         print("The square of", 1, "is", 1, "and the cube is", 1)
