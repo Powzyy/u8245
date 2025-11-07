@@ -8,6 +8,9 @@ Date and Version: 2025-11-06 v1.0
 Completion time: 
 """
 
+#variables
+option = ''
+
 ##functions
 #show the menu
 def show_menu():
@@ -25,7 +28,6 @@ def get_attribute_value(prompt):
 
 
 #main
-option = ''
 while option != 'Q':
     show_menu()
     option = get_menu_option("Select an option: ").upper()
